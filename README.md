@@ -9,7 +9,9 @@ Multi-bot JSON generator for PokemonGoBot@jabbink. Well tested with PTC accounts
 
 #Usage (Windows/Linux)
 Command parameters: `php cli.php <accounts.txt> <template.json> <gui_port_start>`
+
 Example 1:
-`php cli.php accounts.txt default-template.json 33000`
+  `php cli.php accounts.txt default-template.json 33000`
+
 Example 2:
-`php cli.php accounts.txt my-template2.json 50000`
+  `php cli.php accounts.txt my-template2.json 50000`
