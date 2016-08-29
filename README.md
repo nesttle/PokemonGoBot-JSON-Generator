@@ -9,6 +9,7 @@ Multi-bot JSON generator for [jabbink/PokemonGoBot](https://github.com/jabbink/P
 
 #Usage (Windows/Linux)
 ![Windows CLI](http://i.imgur.com/BMMRRDN.png)
+
 Command parameters: `php cli.php <accounts.txt> <template.json> <gui_port_start>`
 
 Example 1:
