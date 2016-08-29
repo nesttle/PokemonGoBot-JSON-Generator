@@ -11,10 +11,10 @@ Multi-bot JSON generator for [jabbink/PokemonGoBot](https://github.com/jabbink/P
 Command parameters: `php cli.php <accounts.txt> <template.json> <gui_port_start>`
 
 Example 1:
-  `php cli.php accounts.txt default-template.json 33000`
+  `php cli.php accounts-example1.csv default.json 33000`
 
 Example 2:
-  `php cli.php accounts.txt my-template2.json 50000`
+  `php cli.php accounts-example2.csv default.json 50000`
 
 #Output
 Check `/bot-settings` folder and copy/move the desired .json files to your PokemonGoBot `/bot-settings` folder. You must re-start the bot to see any changes.
