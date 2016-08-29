@@ -7,7 +7,7 @@ if (isset($argv) && (count($argv) > 2)) {
 		if (!is_dir('bot-settings')) { mkdir('bot-settings'); }
 		echo 'Accounts: '.$argv[1]. ' ('.strlen($argv[1]).'), Template: '.$argv[2].' ('.strlen($argv[2]).')'.PHP_EOL;
 		sleep(1);
-		echo 'Leyendo '.$argv[1].'...'.PHP_EOL;
+		echo 'Reading '.$argv[1].'...'.PHP_EOL;
 		sleep(1);
 		$template = file_get_contents($argv[2]);
 		$accounts = getAccounts($argv[1]);
@@ -15,7 +15,7 @@ if (isset($argv) && (count($argv) > 2)) {
 		echo '----------------------------------------------------------------'.PHP_EOL;
 		$i = 0;
 		foreach ($accounts as $key => $val) {
-			echo 'Generado '.$val['username'].'.json'.PHP_EOL;
+			echo 'Making '.$val['username'].'.json'.PHP_EOL;
 			$guiport = $argv[3]+$i;
 			$search = array('##LATITUDE##','##LONGITUDE##','##USERNAME##','##PASSWORD##','##GUIPORT##','##PROXYIP##','##PROXYPORT##','##RESTAPIPASSWORD##');
 			$replace = array($val['latitude'],$val['longitude'],$val['username'],$val['password'],$guiport,$val['proxy_ip'],$val['proxy_port'],$val['rest_api_password']);
