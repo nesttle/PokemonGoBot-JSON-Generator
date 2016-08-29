@@ -20,6 +20,7 @@ Example 2:
 Check `/bot-settings` folder and copy/move the desired .json files to your PokemonGoBot `/bot-settings` folder. You must re-start the bot to see any changes.
 
 #Notes
+* Default Proxy type is set to `HTTP`. You can modify this in your [config template file](https://github.com/nesttle/PokemonGoBot-JSON-Generator/blob/master/default.json).
 * Default Rest API password will be set to `mydefaultpassword` if not found in your `accounts-list.file`. Check [this](https://github.com/nesttle/PokemonGoBot-JSON-Generator/blob/master/accounts-example2.csv) example.
 * Accounts file syntax:
 ```
