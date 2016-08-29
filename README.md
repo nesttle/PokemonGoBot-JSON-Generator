@@ -18,3 +18,6 @@ Example 2:
 
 #Output
 Check `/bot-settings` folder and copy/move the desired .json files to your PokemonGoBot `/bot-settings` folder. You must re-start the bot to see any changes.
+
+#Notes
+* Default Rest API password (=`mydefaultpassword`) will be set if not defined in your `accounts-list.file`
