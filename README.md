@@ -20,4 +20,10 @@ Example 2:
 Check `/bot-settings` folder and copy/move the desired .json files to your PokemonGoBot `/bot-settings` folder. You must re-start the bot to see any changes.
 
 #Notes
-* Default Rest API password (=`mydefaultpassword`) will be set if not defined in your `accounts-list.file`
+* Default Rest API password will be set to `mydefaultpassword` if not found in your `accounts-list.file`. Check [this](https://github.com/nesttle/PokemonGoBot-JSON-Generator/blob/master/accounts-example2.csv) example.
+* Accounts file syntax:
+```
+##USERNAME##;##PASSWORD##;##LATITUDE##;##LONGITUDE##;##RESTAPIPASSWORD##;##PROXYIP##;##PROXYPORT##
+```
+* Tags will be replaced following your config template file. Check [this](https://github.com/nesttle/PokemonGoBot-JSON-Generator/blob/master/default.json) example.
+
