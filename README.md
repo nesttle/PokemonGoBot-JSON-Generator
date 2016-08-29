@@ -1,5 +1,5 @@
 # PokemonGoBot-JSON-Generator
-Multi-bot JSON generator for PokemonGoBot@jabbink. Well tested with PTC accounts.
+Multi-bot JSON generator for [jabbink/PokemonGoBot](https://github.com/jabbink/PokemonGoBot/tree/wip/newAPI). Well tested with PTC accounts.
 
 #Pre-requisites
 * PHP
